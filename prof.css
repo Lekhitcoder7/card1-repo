@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&family=Roboto+Slab:wght@100;200;300;400&family=Roboto:ital,wght@1,700&display=swap');
+
+*{
+    font-family:"poppins", sans-serif;
+}
+#menubar {
+    margin:0px;
+    padding:0px;
+}
+body{
+    text-align:center;
+}
+.menu{
+    height:500px;
+    width:100%;
+    background-color:white;
+    border:0.5px solid dotted;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#menubar{
+    
+    height:390px;
+    width:300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border:0.3px solid green;
+    border-radius:30px;
+    box-shadow:5px 6px 9px green;
+}
+#box7 {
+    border:0.3px solid red;
+    height: 102px;
+    background-color: lightpink;
+    width: 280px; /* Adjust the width as needed */
+    padding: 10px; /* Add padding for space around the content */
+    border-radius:8px;
+}
+#box7 p{
+    margin-top:0px;
+}
+#box7 img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: blue;
+    padding:3px;
+}
+#box7 #boxes{
+    border:3px solid white;
+}
+#box2{
+    height:50px;
+    background-color:green;
+ }
+ #box3{
+    height:45px;
+    width:120px;
+    margin-top:65px;
+ }
+ #box3 a{
+    margin-left:6px;
+ }
+ #box3 a img{
+    height:30px;
+    width:30px;
+    box-shadow:0.5px 0.5px 0.5px black;
+ }
+.menu div{
+    height:100px;
+    width:200px;
+    display: inline-block;
+}
+/*#box4{
+    display:flex;
+    justify-content:space-around;
+    align-items: center; 
+    width:327px;
+    margin-top:15px;  
+}
+#box4 div a{
+    color:white;
+    font-weight:600;
+    text-decoration: none;
+    border:0.5px solid black;
+    border-radius: 10%;
+    height: 40px;
+    width:85px;  
+    background-color: rgb(78, 242, 248);
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.box4 a:hover {
+    background-color: green;
+    color:black;
+}*/
+#box4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* Added to center items vertically */
+    width: 327px;
+    margin-top: 15px;
+}
+
+#box4 div a {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    border: 0.5px solid black;
+    border-radius: 10%;
+    height: 40px;
+    width: 85px;
+    background-color: rgb(30, 196, 30);
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#box4 div a:hover {
+    background-color: blue;
+    color: white;
+}
